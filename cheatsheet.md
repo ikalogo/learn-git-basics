@@ -27,8 +27,8 @@
 ##### Commit (saving your edits so they are trackable)
 		git commit -m "message detailing what sort of changes you've made"
 
-##### Unstaging file 
-		git revert HEAD <modified file name>
+##### Unstaging changes 
+		git reset HEAD <modified file name>
 
 ##### Updating a branch (it is good practice defore a merge to make sure the branch is up to date with master branch)
 		git pull origin master 
