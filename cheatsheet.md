@@ -36,4 +36,6 @@
 ##### Merging master branch to a branch so it's up to date in case someone made changes (make sure you have switched to the branch)
 		git merge master
 
+##### Pushing changes to the remote repositoty (make sure you have merged the current branch with the updated verison of master)
+		git push origin <branch name>
 
