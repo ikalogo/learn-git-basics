@@ -33,7 +33,7 @@
 ##### Updating a branch (it is good practice defore a merge to make sure the branch is up to date with master branch)
 		git pull origin master 
 
-##### Merging a branch to the master branch (make sure u have switched to the branch)
+##### Merging master branch to a branch so it's up to date in case someone made changes (make sure you have switched to the branch)
 		git merge master
 
 
