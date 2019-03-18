@@ -39,3 +39,10 @@
 ##### Pushing changes to the remote repositoty (make sure you have merged the current branch with the updated verison of master)
 		git push origin <branch name>
 
+##### Check the credentials on the local machine 
+		git config --list
+
+##### Edit your name and email on the credentials file
+		git config --global user.name "your name"
+		git config --global user.email "your email"
+
