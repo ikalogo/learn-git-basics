@@ -1,6 +1,6 @@
 # Introduction to Git and Version Control
 
-This tutorial is targeted towards the students of Founders & Coders 8 week coding Academy. Feedback or Suggestions in the format of an issue or contributions as a pull request are appreciated.
+This tutorial is targeted towards the students of [Founders & Coders](http://foundersandcoders.org/) 8 week coding Academy. Feedback or Suggestions in the format of an issue or contributions as a pull request are appreciated.
 
 As a student, if you get stuck at any point, please open an issue and I will try to get back to you as soon as possible. If you would prefer, feel free to contact me on Gitter. When the issue is solved, do think about making a pull request to the project.
 
@@ -27,7 +27,6 @@ Git for Collaboration is aimed at the second week students of the course. Even t
 3. [Committing](#commits)
     * [When should you commit](#when-commit)
     * [Commit messages](#commit-message)
-4. [More about branches and Flows](#final flows)
 
 #### [Resources](#resources)
 
@@ -100,7 +99,7 @@ On your local machine, please make sure you have git installed. If you are using
 
 <a name="getting-started" id="getting-started"></a>
 ### Getting Starting
-The next step is to clone the forked version of this repository. Copy the url shown here: 
+The next step is to clone the forked version of this repository. On the main page of the repo, copy the url shown here: 
 
 ![where to copy url on github](./img/git-clone.png)
 
@@ -384,8 +383,10 @@ I tend to favour one line commits for simplicity, but many schools of thought ou
 * [Informative guidelines, and a cute cat filled slideshow](http://www.slideshare.net/TarinGamberini/commit-messages-goodpractices)
 
 
-<a name="Resources" id="Resources"></a>
+<a name="resources" id="resources"></a>
 # RESOURCES:
 
-* http://gitreal.codeschool.com/
+* For generating ssh keys https://help.github.com/articles/generating-ssh-keys/
+* http://gitreal.codeschool.com/ 
 * https://www.atlassian.com/git/tutorials/
+* https://github.com/pcottle/learnGitBranching 
