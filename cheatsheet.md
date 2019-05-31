@@ -36,10 +36,10 @@
 ##### Unstaging changes 
     git reset HEAD <modified file name>
 
-##### Updating a branch (it is good practice defore a merge to make sure the branch is up to date with master branch)
+##### Updating a branch (it is good practice before a merge to make sure the branch is up to date with master branch)
     git pull origin master 
 
-##### Pushing changes to the remote repositoty (make sure you have merged the current branch with the updated verison of master)
+##### Pushing changes to the remote repository (make sure you have merged the current branch with the updated verison of master)
     git push origin <branch name>
 
 ##### Check the credentials on the local machine 
@@ -49,3 +49,17 @@
     git config --global user.name "your name"
     git config --global user.email "your email"
 
+##### Splitting changes to a file in several stageable parts for cleaner commits ([in depth](https://johnkary.net/blog/git-add-p-the-most-powerful-git-feature-youre-not-using-yet/))
+    git add -p
+
+##### Stash your changes (whole status) to allow you to say swap branch without committing unfinished work ([in depth](https://git-scm.com/book/en/v1/Git-Tools-Stashing))
+    git stash
+
+ * ##### Reapply the stashed changes (applies the latest stash in the stash stack)
+
+        git stash apply
+
+ * ##### Reapply a specific stash
+
+        git stash list
+        git stash apply <stash name>
