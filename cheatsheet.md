@@ -36,10 +36,10 @@
 ##### Unstaging changes 
     git reset HEAD <modified file name>
 
-##### Updating a branch (it is good practice defore a merge to make sure the branch is up to date with master branch)
+##### Updating a branch (it is good practice before a merge to make sure the branch is up to date with master branch)
     git pull origin master 
 
-##### Pushing changes to the remote repositoty (make sure you have merged the current branch with the updated verison of master)
+##### Pushing changes to the remote repository (make sure you have merged the current branch with the updated verison of master)
     git push origin <branch name>
 
 ##### Check the credentials on the local machine 
